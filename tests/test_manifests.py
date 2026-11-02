@@ -33,6 +33,7 @@ class ManifestTests(unittest.TestCase):
                 publishers.add(p["publisher"])
                 icon = (folder / p["icon"]).read_bytes()
                 self.assertEqual(icon[:8], b"\x89PNG\r\n\x1a\n")
+                self.assertLessEqual(len(icon), 1024 * 1024)
                 width, height = struct.unpack(">II", icon[16:24])
                 self.assertEqual(width, height)
                 self.assertGreaterEqual(width, 256)
