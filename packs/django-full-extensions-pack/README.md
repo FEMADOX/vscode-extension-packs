@@ -1,4 +1,4 @@
-# Django Full Extensions Pack
+# FEMADOX Django Full Extensions Pack
 
 Django and Jinja language support, Python-side Django snippets, autocomplete and djLint.
 

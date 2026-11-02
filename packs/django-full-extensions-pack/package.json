@@ -1,8 +1,8 @@
 {
   "name": "django-full-extensions-pack",
-  "displayName": "Django Full Extensions Pack",
+  "displayName": "FEMADOX Django Full Extensions Pack",
   "version": "1.0.0",
-  "publisher": "publisher-pending",
+  "publisher": "FEMADOX",
   "description": "Django and Jinja language support, Python-side Django snippets, autocomplete and djLint.",
   "license": "SEE LICENSE IN LICENSE.txt",
   "author": "FEMADOX",

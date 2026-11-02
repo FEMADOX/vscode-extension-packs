@@ -4,9 +4,9 @@ Three curated, code-free collections for Python, Django and React/Next.js.
 
 | Pack | Extensions | Source |
 | --- | ---: | --- |
-| Python Modern Extensions Pack | 9 | [Manifest and guide](packs/python-modern-extensions-pack) |
-| Django Full Extensions Pack | 5 | [Manifest and guide](packs/django-full-extensions-pack) |
-| React / Next.js Modern Pack | 22 | [Manifest and guide](packs/react-nextjs-modern-pack) |
+| FEMADOX Python Modern Extensions Pack | 9 | [Manifest and guide](packs/python-modern-extensions-pack) |
+| FEMADOX Django Full Extensions Pack | 5 | [Manifest and guide](packs/django-full-extensions-pack) |
+| FEMADOX React / Next.js Modern Pack | 22 | [Manifest and guide](packs/react-nextjs-modern-pack) |
 
 ## Curation
 

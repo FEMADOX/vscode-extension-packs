@@ -1,4 +1,4 @@
-# React / Next.js Modern Pack
+# FEMADOX React / Next.js Modern Pack
 
 React and Next.js tools for JavaScript, TypeScript, HTML and CSS, with project-specific linting choices.
 

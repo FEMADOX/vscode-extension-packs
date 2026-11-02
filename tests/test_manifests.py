@@ -5,9 +5,9 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED = {
-    "python-modern-extensions-pack": ("Python Modern Extensions Pack", 9),
-    "django-full-extensions-pack": ("Django Full Extensions Pack", 5),
-    "react-nextjs-modern-pack": ("React / Next.js Modern Pack", 22),
+    "python-modern-extensions-pack": ("FEMADOX Python Modern Extensions Pack", 9),
+    "django-full-extensions-pack": ("FEMADOX Django Full Extensions Pack", 5),
+    "react-nextjs-modern-pack": ("FEMADOX React / Next.js Modern Pack", 22),
 }
 
 class ManifestTests(unittest.TestCase):
@@ -20,6 +20,7 @@ class ManifestTests(unittest.TestCase):
                 p = json.loads((folder / "package.json").read_text(encoding="utf-8"))
                 self.assertEqual((p["name"], p["displayName"]), (name, title))
                 self.assertEqual(p["version"], "1.0.0")
+                self.assertEqual(p["publisher"], "FEMADOX")
                 self.assertEqual(p["categories"], ["Extension Packs"])
                 self.assertEqual(p["license"], "SEE LICENSE IN LICENSE.txt")
                 self.assertNotIn("private", p)

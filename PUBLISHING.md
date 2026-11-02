@@ -1,11 +1,9 @@
 # Publishing
 
-The manifests currently use publisher-pending. Do not upload these packages. Replace that value in all three package.json files with the registered publisher ID after verifying ownership in the Marketplace.
+All three package manifests are configured with publisher ID FEMADOX. This is the intended Marketplace publisher value; it does not confirm that the publisher account is registered or that any package has been published.
 
-1. Register at https://marketplace.visualstudio.com/manage/publishers/ .
-2. Set the registered publisher ID in each manifest and rerun tests.
-3. Run npx --yes @vscode/vsce@4.1.0 package --no-dependencies from each pack folder.
-4. Upload the VSIX files from the publisher management page.
-5. Verify every listing's publisher ID, version and contents.
+Publishing requires an authenticated account with access to the matching FEMADOX publisher in the Visual Studio Marketplace. Verify publisher access, listing metadata, and VSIX contents before uploading through the publisher management page: https://marketplace.visualstudio.com/manage/publishers/
 
-Source: https://github.com/FEMADOX/vscode-extension-packs . A local build or a source commit is not proof of Marketplace publication. No credentials or tokens belong in the repository. Future CI releases can use Marketplace Trusted Publishing with a narrow GitHub Actions policy.
+Local VSIX builds and source commits do not publish packages. Do not store Marketplace credentials or tokens in this repository.
+
+Source: https://github.com/FEMADOX/vscode-extension-packs

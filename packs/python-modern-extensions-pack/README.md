@@ -1,4 +1,4 @@
-# Python Modern Extensions Pack
+# FEMADOX Python Modern Extensions Pack
 
 Python and FastAPI tools with Ruff, ty, debugging, environments, docstrings and type hints.
 

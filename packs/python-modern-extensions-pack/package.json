@@ -1,8 +1,8 @@
 {
   "name": "python-modern-extensions-pack",
-  "displayName": "Python Modern Extensions Pack",
+  "displayName": "FEMADOX Python Modern Extensions Pack",
   "version": "1.0.0",
-  "publisher": "publisher-pending",
+  "publisher": "FEMADOX",
   "description": "Python and FastAPI tools with Ruff, ty, debugging, environments, docstrings and type hints.",
   "license": "SEE LICENSE IN LICENSE.txt",
   "author": "FEMADOX",
