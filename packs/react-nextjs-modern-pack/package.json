@@ -1,0 +1,66 @@
+{
+  "name": "react-nextjs-modern-pack",
+  "displayName": "React / Next.js Modern Pack",
+  "version": "1.0.0",
+  "publisher": "publisher-pending",
+  "description": "React and Next.js tools for JavaScript, TypeScript, HTML and CSS, with project-specific linting choices.",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "author": "FEMADOX",
+  "engines": {
+    "vscode": "^1.144.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "javascript",
+    "typescript",
+    "frontend",
+    "react",
+    "css"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#10141C",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FEMADOX/vscode-extension-packs.git",
+    "directory": "packs/react-nextjs-modern-pack"
+  },
+  "homepage": "https://github.com/FEMADOX/vscode-extension-packs/tree/main/packs/react-nextjs-modern-pack#readme",
+  "bugs": {
+    "url": "https://github.com/FEMADOX/vscode-extension-packs/issues"
+  },
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "icon.png"
+  ],
+  "extensionPack": [
+    "anbuselvanrocky.bootstrap5-vscode",
+    "austenc.tailwind-docs",
+    "biomejs.biome",
+    "bradlc.vscode-tailwindcss",
+    "christian-kohler.npm-intellisense",
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
+    "ecmel.vscode-html-css",
+    "hossaini.bootstrap-intellisense",
+    "imgildev.vscode-auto-barrel",
+    "oven.bun-vscode",
+    "oxc.oxc-vscode",
+    "pmneo.tsimporter",
+    "pranaygp.vscode-css-peek",
+    "ritwickdey.liveserver",
+    "simonsiefke.svg-preview",
+    "stringham.move-ts",
+    "typescriptteam.native-preview",
+    "vitest.explorer",
+    "wallabyjs.console-ninja",
+    "wscats.html-snippets",
+    "yoavbls.pretty-ts-errors"
+  ]
+}

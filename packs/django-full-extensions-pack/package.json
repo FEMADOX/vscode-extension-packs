@@ -1,0 +1,47 @@
+{
+  "name": "django-full-extensions-pack",
+  "displayName": "Django Full Extensions Pack",
+  "version": "1.0.0",
+  "publisher": "publisher-pending",
+  "description": "Django and Jinja language support, Python-side Django snippets, autocomplete and djLint.",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "author": "FEMADOX",
+  "engines": {
+    "vscode": "^1.144.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "django",
+    "templates",
+    "snippets"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#10141C",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FEMADOX/vscode-extension-packs.git",
+    "directory": "packs/django-full-extensions-pack"
+  },
+  "homepage": "https://github.com/FEMADOX/vscode-extension-packs/tree/main/packs/django-full-extensions-pack#readme",
+  "bugs": {
+    "url": "https://github.com/FEMADOX/vscode-extension-packs/issues"
+  },
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "icon.png"
+  ],
+  "extensionPack": [
+    "batisteo.vscode-django",
+    "bibhasdn.django-snippets",
+    "monosans.djlint",
+    "samuelcolvin.jinjahtml",
+    "shamanu4.django-intellisense"
+  ]
+}
